@@ -48,13 +48,23 @@ body,html{
 .btn{
     height: 200px;
     width: 200px;
-    background-image: url(images/paper-emoji.png);
-    background-size: cover;
     color: #fff;
     border: none;
     border-radius: 50%;
     cursor: pointer;
     font-size: 16px;
+}
+.btnRock{
+    background-image: url(images/rock-emoji.png);
+    background-size: cover;
+}
+.btnPaper{
+    background-image: url(images/paper-emoji.png);
+    background-size: cover;
+}
+.btnScissors{
+    background-image: url(images/scissors-emoji.png);
+    background-size: cover;
 }
 .result{
     height: 300px;
@@ -109,3 +119,9 @@ p{
     font-size: 20px;
     font-weight: 600;
 }   
+.chosen{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
