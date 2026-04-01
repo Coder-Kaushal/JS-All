@@ -48,10 +48,11 @@ body,html{
 .btn{
     height: 200px;
     width: 200px;
-    background-color: #8fbcec;
+    background-image: url(images/paper-emoji.png);
+    background-size: cover;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
     font-size: 16px;
 }
@@ -63,7 +64,48 @@ body,html{
     padding: 10px;
     font-size: 16px;
     margin-left: 20px;
+}
+.score{
+    height: 100px;
+    width: 800px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.navigation{
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-size: 24px;
+    color: #212020;
+    font-weight: bold;
+    text-shadow: #f1c4c4 1px 1px 2px;
+}
+
+.btnRestart{
+    height: 50px;
+    width: 150px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btnReset{
+    height: 50px;
+    width: 150px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}   
